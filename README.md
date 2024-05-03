@@ -12,7 +12,7 @@ Testing on MNIST dataset. Detected 155 labels that are high risk as mislabeled.
 Implemented on actual dataset and waiting to measure results.
 
 
-Files:
+**Files**:
 
 MNIST_Bad_Label_Detection_CleanLab.ipynb
 - Used to find mislabeled data
