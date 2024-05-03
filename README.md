@@ -18,3 +18,13 @@ Implemented on actual dataset and waiting to measure results.
 Having the CNN identify and group similar taxas in the second last layer of neural network.
 Testing on MNIST dataset, using TSNE and UMAP to form groupings in data .
 
+Files:
+
+MNIST_Bad_Label_Detection_CleanLab.ipynb
+- Used to find mislabeled data
+  
+MNIST_Bad_Data_Pruning.ipynb
+- Used to remove the mislabeled data
+  
+MNIST_Data_Augmentation.ipynb
+- Augments existing dataset to create more data to train on
