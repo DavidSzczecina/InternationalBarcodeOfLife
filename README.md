@@ -7,18 +7,26 @@ Collaboration on the BIOSCAN Program, part of the International Barcode of Life 
 Increased Machine Learning model accuracy using Confident Learning for error detection in data
 
 
-Increased Machine Learning model accuracy using Confident Learning for error detection in data using CleanLab.
-Testing on MNIST dataset. Detected 155 labels that are high risk as mislabeled.
-Implemented on actual dataset and waiting to measure results.
+Key Achievements
+Increased Deep Learning model accuracy using Confident Learning for error detection in datasets.
+Identified mislabeled data in multiple datasets, including MNIST, CIFAR-10, ImageNet.
+Performed analysis of how accuracy and loss are affected by mislabeling of common ML datasets.
 
 
 **Files**:
 
+DataCleaning.py
+- Identifying label issues in the BIOSCAN-1M dataset
+
 MNIST_Bad_Label_Detection_CleanLab.ipynb
-- Used to find mislabeled data
+- Example to find mislabeled data in MNIST
   
 MNIST_Bad_Data_Pruning.ipynb
-- Used to remove the mislabeled data
+- Example used to remove the mislabeled data
   
 MNIST_Data_Augmentation.ipynb
-- Augments existing dataset to create more data to train on
+- Example Augments existing dataset to create more data to train on
+
+
+
+
